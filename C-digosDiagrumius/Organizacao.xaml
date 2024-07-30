@@ -1,0 +1,12 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="C-digosDiagrumius.Organizacao"
+             Title="Organizar">
+
+    <Grid RowDefinitions="*,*" ColumnDefinitions="*,*">
+        <Button Grid.Row="0" Grid.Column="0" Text="Linha e Agulha 1" Clicked="LinhaAgulha1_Clicked" />
+        <Button Grid.Row="0" Grid.Column="1" Text="Linha e Agulha 2" Clicked="LinhaAgulha2_Clicked" />
+        <Button Grid.Row="1" Grid.Column="0" Text="Linha e Agulha 3" Clicked="LinhaAgulha3_Clicked" />
+        <Button Grid.Row="1" Grid.Column="1" Text="Linha e Agulha 4" Clicked="LinhaAgulha4_Clicked" />
+    </Grid>
+</ContentPage>

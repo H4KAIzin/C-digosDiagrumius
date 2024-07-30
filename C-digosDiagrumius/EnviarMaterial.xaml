@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="C-digosDiagrumius.EnviarMaterial"
+             BackgroundColor="White">
+    <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+        <Frame BackgroundColor="LightGray"
+               CornerRadius="20"
+               Padding="40"
+               HorizontalOptions="Center"
+               VerticalOptions="Center">
+            <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Label Text="enviar material"
+                       FontSize="36"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"
+                       TextColor="Black"
+                       FontAttributes="Bold" />
+                <Button Text="concluido" FontAttributes="Bold" FontSize="18" BackgroundColor="LightGreen" TextColor="Black" Margin="20,40,20,0" />
+            </StackLayout>
+        </Frame>
+    </StackLayout>
+</ContentPage>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="C-digosDiagrumius.ClientePerfil"
+             BackgroundColor="LightGray">
+    <StackLayout HorizontalOptions="Center" VerticalOptions="Center" Padding="10">
+        <Frame BorderColor="Black"
+               CornerRadius="100"
+               HeightRequest="100"
+               WidthRequest="100"
+               HorizontalOptions="Center"
+               VerticalOptions="Center">
+            <Image Source="user_icon.png" />
+        </Frame>
+        <Entry Placeholder="nome" x:Name="nameEntry" Margin="10" />
+        <Grid Margin="10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Frame BorderColor="Black" HeightRequest="100" WidthRequest="100" Grid.Row="0" Grid.Column="0" />
+            <Frame BorderColor="Black" HeightRequest="100" WidthRequest="100" Grid.Row="0" Grid.Column="1" />
+            <Frame BorderColor="Black" HeightRequest="100" WidthRequest="100" Grid.Row="1" Grid.Column="0" />
+            <Frame BorderColor="Black" HeightRequest="100" WidthRequest="100" Grid.Row="1" Grid.Column="1" />
+        </Grid>
+    </StackLayout>
+</ContentPage>
