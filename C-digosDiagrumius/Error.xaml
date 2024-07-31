@@ -1,0 +1,9 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="C-digosDiagrumius.Error">
+
+    <Grid BackgroundColor="Red">
+        <Label Text="!" FontSize="Large" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" />
+        <Label Text="ERRO LOCALIZADO!" FontSize="Medium" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Margin="0, 30" />
+    </Grid>
+</ContentPage>

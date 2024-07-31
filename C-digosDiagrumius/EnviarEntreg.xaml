@@ -1,0 +1,21 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="C-digosDiagrumius.EnviarEntreg">
+
+    <Grid>
+        <Button Text="ENVIAR PARA ENTREGA"
+                FontSize="Medium"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                BackgroundColor="White"
+                CornerRadius="20"
+                Padding="20">
+            <Button.ImageSource>
+                <FontImageSource Glyph="&#x2709;"
+                                  FontFamily="FontAwesomeSolid"
+                                  Size="24"
+                                  Color="Black" />
+            </Button.ImageSource>
+        </Button>
+    </Grid>
+</ContentPage>
