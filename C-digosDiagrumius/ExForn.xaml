@@ -1,0 +1,24 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CdigosDiagrumius.ExForn">
+
+    <Grid>
+        <Frame CornerRadius="20" Padding="10" BackgroundColor="White" Margin="20">
+            <StackLayout>
+                <Image Source="user.png" HeightRequest="50" WidthRequest="50" />
+                <Frame CornerRadius="10" Padding="10" BackgroundColor="LightGray" Margin="5">
+                    </Frame>
+                <Frame CornerRadius="10" Padding="10" BackgroundColor="LightGray" Margin="5">
+                    </Frame>
+            </StackLayout>
+        </Frame>
+
+        <Grid IsVisible="{Binding IsPopupVisible}" BackgroundColor="White" CornerRadius="20" Margin="20" Padding="20">
+            <Label Text="Deseja excluir o fornecedor?" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" />
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="End">
+                <Button Text="Não" CornerRadius="10" Margin="5" />
+                <Button Text="Sim" CornerRadius="10" Margin="5" BackgroundColor="Red" />
+            </StackLayout>
+        </Grid>
+    </Grid>
+</ContentPage>
